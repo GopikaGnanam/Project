@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>Registration form</title>
+        <style>
+            head{
+                padding: 0%;
+                margin: 0;
+                font-family: sans-serif;
+            }
+            body{
+                background-color: rgb(9, 214, 115);
+                background-size: cover;
+                color: #fff;
+                  }
+           .container{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform:translate(-50%,-50%);
+                max-width:700px;
+                width: 100px;
+            }
+            .Registration h2{
+                font-size: 30px;
+                text-align: center;
+                text-transform: uppercase;
+                margin: 40px 0;
+            }
+            .Registration p{
+                font-size: 20px;
+                margin: 15px 0;
+            }
+            .Registration input{
+                font-size: 16px;
+                padding: 100;
+                width:100%;
+                border: 0;
+                border-radius: 5px;
+                outline: none;
+            }
+            .Registration button{
+                font-size: 18px;
+                font-weight: bold;
+                margin: 20px 0;
+                padding:10px 15px;
+                width:50%;
+                border:0;
+                border-radius: 5px;
+                background-color: rgb(208, 197, 125);
+                align-items:baseline;
+               }
+            .Registration button:hover{
+                color: rgb(206, 214, 49);
+            }
+         nav{
+            float:inline-start;
+         }
+    </style>
+        
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="about1.html">About</a>
+        <a href="login.html">Login</a>
+        <a href="registration.html">Register</a>
+</nav>
+    </head>
+    <body>
+        <div class="container">
+            <h2>Registration</h2>
+            <form action="#" method="post">
+                <p>Full Name:</p>
+                <input type="text" name="Fullname" placeholder="Full Name">
+                <p>User Name:</p>
+                <input type="text" name="Username" placeholder="User Name">
+                <p>Email:</p>
+                <input type="text" name="Email" placeholder="Email">
+                <p>Passwors:</p>
+                <input type="text" name="Password" placeholder="Password"><br><br>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </body>
+</html>
